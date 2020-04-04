@@ -1,0 +1,61 @@
+<doctype html> 
+<link rel="stylesheet" href="light.html">
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (orientation: portrait) { 
+
+head 
+{
+font-family: Georgia, serif;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
+}
+
+h1 {color: black;} 
+p {color: grey}
+h2 {color: grey}
+
+
+
+body 
+{background: linear-gradient(114deg, #f09797, #fcf9f9);}
+
+
+/* GLOBAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #AAA;
+    margin: 0px 50px 50px;
+}
+
+/* Each item in the grid contains numbers */
+.item {
+    padding: 2rem;
+    border: 5px solid #87b5ff;
+    border-radius: 3px;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #1c57b5;
+}
+
+.container {
+    display: flex;
+    background-color: #f5ca3c;
+    flex-direction: row-reverse;
+}
